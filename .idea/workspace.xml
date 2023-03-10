@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Develhope.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2/Main.java" afterDir="false" />
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Exercises 1.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MnUskIvAIjQqVlrMH0Rf0MSr0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,13 +35,65 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Documenti/Projects/Java Projects/Develhope-Excercises&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._6.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics._2.Main" />
+      <option name="MAIN_CLASS_NAME" value="_5.Main" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javabasics._2.*" />
+          <option name="PATTERN" value="_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_2.Main" />
+      <module name="Develhope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_3.Main" />
+      <module name="Develhope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_4.Main" />
+      <module name="Develhope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_6.Main" />
+      <module name="Develhope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -54,7 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._6.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application._4.Main" />
+        <item itemvalue="Application._3.Main" />
+        <item itemvalue="Application._2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -67,6 +120,34 @@
       <option name="presentableId" value="Default" />
       <updated>1678403050165</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercises 1.">
+      <created>1678407623377</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678407623377</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercises 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercises 1." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Develhope_Excercises$_6_Main.ic" NAME="_6.Main Coverage Results" MODIFIED="1678472150234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_6.*</FILTER>
+    </SUITE>
   </component>
 </project>
