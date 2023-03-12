@@ -1,4 +1,4 @@
-package javabasics._9;
+package _9;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Main {
      */
     private static void exercise1() {
         System.out.println("\nExercise 1:");
-        int porridgeHeatInCentigrade = 30; // <--- Change this value
+        int porridgeHeatInCentigrade = 60; // <--- Change this value
 
         if (porridgeHeatInCentigrade < 60) {
             System.out.println("Too cold!");
@@ -35,10 +35,16 @@ public class Main {
      */
     private static void exercise2() {
         System.out.println("\nExercise 2:");
-        double remainingMoney = 15.0;
-        double lunchCost = 5.0;
+        double remainingMoney = 16.0;
+        double lunchCost = 15.0;
 
         // Your if statement here
+
+        if (lunchCost <= remainingMoney) {
+            System.out.println("Lunch time!");
+        } else if (lunchCost > remainingMoney) {
+            System.out.println("You go hungry today");
+        }
     }
 
     /**
@@ -57,6 +63,17 @@ public class Main {
         System.out.println("\nExercise 3:");
         double ourDouble = 3.5;
         //Write your code here
+
+        if (ourDouble > 2.5) {
+            System.out.println("Greater than");
+        } else if (ourDouble < 2.5) {
+            ourDouble += 1.0;
+           if (ourDouble < 2.5) {
+            System.out.println("Still less than");
+          } else {
+            System.out.println("Now greater than");
+           }
+        }
     }
 
 
@@ -77,5 +94,31 @@ public class Main {
         int employeeAge = 30;
 
         //Write your if statement here
+
+        if (employeeAge >= 65) {
+            System.out.println("Retired");
+        } else if (employeeAge >= 35) {
+            System.out.println("Experienced Worker");
+        } else if (employeeAge >= 18) {
+            System.out.println("New Worker");
+        } else {
+            System.out.println("School Age");
+        }
     }
 }
+// this exercise could've also been written using && operator in order to check both conditions,
+// however as that was not a topic for this lesson I did not do so. Here's the code with the && operator.
+//
+//int employeeAge = 30;
+//
+//if (employeeAge >= 65) {
+//        System.out.println("Retired");
+//        } else if (employeeAge >= 35 && employeeAge < 65) {
+//        System.out.println("Experienced Worker");
+//        } else if (employeeAge >= 18 && employeeAge < 35) {
+//        System.out.println("New Worker");
+//        } else {
+//        System.out.println("School Age");
+//        }
+//         }
+//          }

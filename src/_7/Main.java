@@ -1,4 +1,4 @@
-package javabasics._7;
+package _7;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,7 +15,10 @@ public class Main {
      */
     private static void exercise1() {
         System.out.println("\nExercise 1:");
-        //Write your code here
+        String myCatsName = "Nuvola";
+
+        System.out.println(myCatsName.toUpperCase());
+        System.out.println(myCatsName.toLowerCase());
     }
 
     /**
@@ -24,11 +27,11 @@ public class Main {
     private static void exercise2() {
         System.out.println("\nExercise 2:");
         // Change these
-        String firstName = "(your first name)";
-        String middleName = "(your middle name/any middle name)";
-        String lastName = "(your last name)";
+        String firstName = "Gaia";
+        String middleName = "L";
+        String lastName = "Addeo";
 
-        System.out.println(firstName + " " + middleName + " " + lastName); // <--- Edit this line
+        System.out.println(firstName.toUpperCase() + " " + middleName.toLowerCase() + " " + lastName.toUpperCase()); // <--- Edit this line
     }
 
 
@@ -52,7 +55,7 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
 
-        String textFrom2Primitives = ""; // <--- Edit this line
+        String textFrom2Primitives = "Hello" + 5585 + 6.8 + 'a' + false; // <--- Edit this line
         System.out.println(textFrom2Primitives);
     }
 
@@ -70,7 +73,7 @@ public class Main {
         String middleNumbers = "       4 5 6";
         String earlyNumbers = "1 2 3";
 
-        System.out.println(); // <--- Write your code here
+        System.out.println(earlyNumbers + " " + middleNumbers.trim() + " " + endNumbers);
     }
 
 

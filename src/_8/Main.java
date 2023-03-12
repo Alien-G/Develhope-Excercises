@@ -1,4 +1,4 @@
-package javabasics._8;
+package _8;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +18,11 @@ public class Main {
     private static void exercise1() {
         System.out.println("\nExercise 1:");
         String ourNumberStr = "88";
-        //Write your code here
+        int ourNumberAsInt = Integer.valueOf(ourNumberStr);
+        ourNumberAsInt += 2;
+        ourNumberStr = Integer.toString(ourNumberAsInt);
+        System.out.println(ourNumberStr);
+
     }
 
     /**
@@ -30,13 +34,13 @@ public class Main {
     private static void exercise2() {
         System.out.println("\nExercise 2a:");
         char ourChar = 'a';
-        String ourCharString = " "; // <--- Change this line
+        String ourCharString = String.valueOf(ourChar).toUpperCase(); // <--- Change this line
         // Notice below what happens, the `charAt()` method
         System.out.println(ourCharString.charAt(0));
 
         System.out.println("\nExercise 2b:");
         String anotherString = "Hello world";
-        int charAtIndex = 0; // <--- Change this line
+        int charAtIndex = 6; // <--- Change this line
         System.out.println("Make this print 'w' -> current result: '" + anotherString.charAt(charAtIndex) + "'");
     }
 
@@ -50,13 +54,13 @@ public class Main {
     private static void exercise3() {
         System.out.println("\nExercise 3:");
 
-        String intStrToConvert = "5.5"; // Change this line
+        String intStrToConvert = "5"; // Change this line
         System.out.println(Integer.valueOf(intStrToConvert));
 
-        String booleanStrToConvert = "maybe"; // And this line
+        String booleanStrToConvert = "false"; // And this line
         System.out.println(Boolean.valueOf(booleanStrToConvert));
 
-        String doubleStrToConvert = "true"; // Also this line
+        String doubleStrToConvert = "4.5"; // Also this line
         System.out.println(Double.valueOf(doubleStrToConvert));
     }
 
@@ -74,7 +78,15 @@ public class Main {
      */
     private static void exercise4() {
         System.out.println("\nExercise 4:");
-        String startStr = "5 ";
-        // Write your code here
+        String startStr = "5";
+
+        int startInt = Integer.valueOf(startStr);
+        startInt *= 2;
+        startStr = Integer.toString(startInt) + startInt;
+        double startDouble = Double.valueOf(startStr);
+        startDouble /= 3.5;
+        double total = Math.floor(startDouble);
+        System.out.println(total);
+
     }
 }

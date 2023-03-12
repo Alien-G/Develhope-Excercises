@@ -1,4 +1,6 @@
-package javabasics._10;
+package _10;
+
+import javax.naming.event.EventDirContext;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,6 +33,12 @@ public class Main {
         boolean wearingShorts = true;
 
         // Write your code here
+
+        if ((isWarm && wearingShorts) || (!isWarm && !wearingShorts)) {
+            System.out.println("Comfortable clothes");
+        } else {
+            System.out.println("Uncomfortable clothes");
+        }
     }
 
     /**
@@ -46,13 +54,17 @@ public class Main {
         System.out.println("\nExercise 2 - Club Bouncer:");
         String shoeType = "fancy";
 
-
-
         int age = 30;
         double eurosInPocket = 7.5;
         double eurosForEntry = 10;
 
         // Write your code here
+
+        if ((shoeType.equals("fancy") && age >= 18 && eurosInPocket >= eurosForEntry)) {
+            System.out.println("Come in");
+        } else {
+            System.out.println("Stay Out");
+        }
     }
 
     /**
@@ -74,6 +86,14 @@ public class Main {
         double maxTestScore = 10;
         boolean isTestRetry = true;
         //Write your code here
+
+        if (ourTestScore > maxTestScore ) {
+            System.out.println("");
+        }
+
+        else {
+            System.out.println("");
+        }
     }
 
 

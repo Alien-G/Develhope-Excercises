@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Exercises 1.">
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercises 2 through 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +39,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Documenti/Projects/Java Projects/Develhope-Excercises&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._6.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_5.Main" />
+      <option name="MAIN_CLASS_NAME" value="_9.Main" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_5.*" />
+          <option name="PATTERN" value="_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_2.Main" />
+    <configuration name="_10.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_10.Main" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_2.*" />
+          <option name="PATTERN" value="_10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_6.Main" />
+    <configuration name="_8.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_8.Main" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_6.*" />
+          <option name="PATTERN" value="_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._6.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application._10.Main" />
+        <item itemvalue="Application._8.Main" />
         <item itemvalue="Application._4.Main" />
         <item itemvalue="Application._3.Main" />
-        <item itemvalue="Application._2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678407623377</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added excercises 2 through 5">
+      <created>1678472515562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678472515562</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added exercises 2 through 5">
+      <created>1678472635470</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678472635470</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +161,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercises 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercises 1." />
+    <MESSAGE value="Added excercises 2 through 5" />
+    <MESSAGE value="Added exercises 2 through 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercises 2 through 5" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_Excercises$_6_Main.ic" NAME="_6.Main Coverage Results" MODIFIED="1678472150234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
