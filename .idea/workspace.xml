@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercises 2 through 5">
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercises 6 through 8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_10/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Documenti/Projects/Java Projects/Develhope-Excercises&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application._11.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_9.Main" />
       <module name="Develhope" />
@@ -66,12 +63,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_3.Main" />
+    <configuration name="_11.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_11.Main" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_3.*" />
+          <option name="PATTERN" value="_11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application._11.Main" />
         <item itemvalue="Application._10.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._8.Main" />
         <item itemvalue="Application._4.Main" />
-        <item itemvalue="Application._3.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678472635470</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added exercises 6 through 8">
+      <created>1678650790391</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678650790391</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,7 +167,8 @@
     <MESSAGE value="Exercises 1." />
     <MESSAGE value="Added excercises 2 through 5" />
     <MESSAGE value="Added exercises 2 through 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercises 2 through 5" />
+    <MESSAGE value="Added exercises 6 through 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercises 6 through 8" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_Excercises$_6_Main.ic" NAME="_6.Main Coverage Results" MODIFIED="1678472150234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

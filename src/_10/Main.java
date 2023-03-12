@@ -10,6 +10,7 @@ public class Main {
         exercise4Bonus();
     }
 
+
     /**
      * AND = &&
      * OR = ||
@@ -87,12 +88,29 @@ public class Main {
         boolean isTestRetry = true;
         //Write your code here
 
-        if (ourTestScore > maxTestScore ) {
-            System.out.println("");
+        if (isTestRetry) {
+            if (ourTestScore / maxTestScore >= 0.7) {
+            System.out.println("C");
+         }else if (ourTestScore / maxTestScore >= 0.6) {
+            System.out.println("D");
+        } else {
+            System.out.println("F");
         }
-
+     }
         else {
-            System.out.println("");
+            if (!isTestRetry) {
+                if (ourTestScore / maxTestScore >= 0.9) {
+                    System.out.println("A");
+                } else if (ourTestScore / maxTestScore >= 0.8) {
+                    System.out.println("B");
+                } else if (ourTestScore / maxTestScore >= 0.7) {
+                    System.out.println("C");
+                } else if (ourTestScore / maxTestScore >= 0.6) {
+                System.out.println("D");
+            } else {
+                System.out.println("F");
+                }
+            }
         }
     }
 
@@ -105,11 +123,18 @@ public class Main {
      *
      *    XOR = ^
      */
+
     private static void exercise4Bonus() {
         System.out.println("\nExercise 4 (Optional) - One way road:");
         boolean carIsDrivingFromLeftToRight = true;
         boolean carIsDrivingFromRightToLeft = false;
 
         //Write your code here
+
+        if (carIsDrivingFromLeftToRight ^ carIsDrivingFromRightToLeft) {
+            System.out.println("safe");
+        } else {
+            System.out.println("CRASH! or No cars");
+        }
     }
 }
