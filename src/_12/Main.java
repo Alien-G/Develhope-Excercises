@@ -33,9 +33,8 @@ public class Main {
 
         yourScore = text.length();
 
-        if (yourScore > 20) {
-            yourScore = 20;
-        }
+        yourScore = Math.min(yourScore, 20);
+
         if (text.contains("a")) {
             yourScore -= 5;
         }
@@ -71,15 +70,19 @@ public class Main {
 
         // Start your code here
 
-        if (mealType.equals("sandwich")) {
-            yourMealScore = 5 * weight;
+        switch (mealType) {
+            case "sandwich":
+                yourMealScore = 5 * weight;
+                break;
+            case "soup":
+                yourMealScore = 3 * weight;
+                break;
+            default:
+                yourMealScore = 5;
+                break;
+        }
 
-        } else if (mealType.equals("soup")){
-            yourMealScore = 3 * weight;
-        }
-        if (yourMealScore < 5) {
-            yourMealScore = 5;
-        }
+        Math.max(yourMealScore, 5);
 
         // End it here
 
