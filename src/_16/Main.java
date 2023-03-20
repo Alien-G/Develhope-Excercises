@@ -77,7 +77,6 @@ public class Main {
         String lunchType = "sandwich";
         String description = "Nice big sandwich";
         int weightInGrams = 500;
-        // String lunch = "Today I ate a " + description + ", It was a " + weightInGrams + "gr " + lunchType;
 
         // Call your function
         printLunch(myLunchPrice, lunchType, description, weightInGrams);
