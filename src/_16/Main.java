@@ -77,12 +77,12 @@ public class Main {
         String lunchType = "sandwich";
         String description = "Nice big sandwich";
         int weightInGrams = 500;
-        String lunch = "Today I ate a " + description + ", It was a " + weightInGrams + "gr " + lunchType;
+        // String lunch = "Today I ate a " + description + ", It was a " + weightInGrams + "gr " + lunchType;
 
         // Call your function
-        printLunch(lunch);
+        printLunch(myLunchPrice, lunchType, description, weightInGrams);
     }
-    private static void printLunch(String lunch) {
-        System.out.println(lunch);
+    private static void printLunch(double price, String type, String description, int weight) {
+        System.out.println("Today I ate a " + description + ", It was a " + weight + "gr " + type + " that I paid " + price + " for.");
     }
 }
