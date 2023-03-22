@@ -92,5 +92,3 @@ public class Exercises {
         System.out.println("Average age: " + (sum/course.students.size()));
     }
 }
-
-// this would've been easier with constructors, getters and setters, pls.
