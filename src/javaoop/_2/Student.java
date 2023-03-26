@@ -8,17 +8,17 @@ public class Student {
         this.name = name;
         this.age = age;
         System.out.println("Constructed");
-
-    }
-    public Student(String name) {
-        this.name = name;
-    }
-
-    public Student(){
-
     }
     public void createStudent() {
         System.out.println("Students: " +
                 name + ", "+ age);
+    }
+    public Student(int age) {
+        this.age = age;
+    }
+    public Student(String name) {
+        this.name = name;
+    }
+    public Student(){
     }
 }
