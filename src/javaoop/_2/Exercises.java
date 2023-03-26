@@ -45,14 +45,14 @@ public class Exercises {
         System.out.println("\nExercise 2:");
 
         // Once you've added the correct constructors uncomment the code below, there should be errors!
-       List<Student> students = Arrays.asList(
+/*       List<Student> students = Arrays.asList(
          new Student("Alice", 33),
          new Student("Bob"),
          new Student(33),
          new Student()
         );
     }
-
+*/
 
     }
 }
