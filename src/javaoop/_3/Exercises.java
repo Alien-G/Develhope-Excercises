@@ -58,3 +58,4 @@ public class Exercises {
         System.out.println("Accessed age "+ student2.getAgeCounter() + " times.");
     }
 }
+
