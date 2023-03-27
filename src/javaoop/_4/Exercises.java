@@ -1,7 +1,5 @@
 package javaoop._4;
 
-import javaoop._4.ExerciseLunch;
-
 import java.util.Random;
 
 public class Exercises {

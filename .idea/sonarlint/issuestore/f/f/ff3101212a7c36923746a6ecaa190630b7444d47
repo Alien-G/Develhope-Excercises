@@ -1,0 +1,21 @@
+
+D
+java:S1121#".Extract the assignment out of this expression.(¼Î¦²
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æã…‘úÿÿÿÿ
+e
+java:S1854"JRemove this useless assignment to local variable "suspiciousEmailMessage".(àğ¹íÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ËŞŸúüÿÿÿÿ
+Q
+java:S1481"6Remove this unused "myBankBalanceEuro" local variable.(¼Âñ·üÿÿÿÿ
+V
+java:S1481";Remove this unused "suspiciousEmailMessage" local variable.(àğ¹íÿÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(¼Î¦²
+N	java:S106N"9Replace this use of System.out or System.err by a logger.( ÖÀ¨
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(°ÑÜ¨üÿÿÿÿ
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(”èåÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(¹›àê
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(æ°ì€
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(³ÆÄğ
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(ŞÎù†
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(¿•Öù
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(ó†Àüÿÿÿÿ

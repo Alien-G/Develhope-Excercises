@@ -14,6 +14,7 @@ public class ExerciseLunch {
         this.nameOfDayEaten = nameOfDayEaten;
     }
 
+
     public static void printMaxPrice() {
         System.out.println(MAX_PRICE);
     }
