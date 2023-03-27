@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á—´ª
+Q	java:S125,"<This block of commented-out lines of code should be removed.(Êÿýð
+Q	java:S1255"<This block of commented-out lines of code should be removed.(Êÿýð
+b
+java:S42758"GRefactor this setter so that it actually refers to the field "cognome".(•âƒªüÿÿÿÿ
+V	java:S125H"<This block of commented-out lines of code should be removed.(ŸˆÌÜûÿÿÿÿ
+V	java:S125Q"<This block of commented-out lines of code should be removed.(¤ÑÚûüÿÿÿÿ
+C
+java:S2201U"(The return value of "size" must be used.(ø¶ê§ÿÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(¹ß€ïúÿÿÿÿ
+O
+java:S3400\"9Remove this method and declare a constant for this value.(”·³›
+B
+java:S1172[",Remove this unused method parameter "lista".(›îÇú
+L
+java:S1068"6Remove this unused "ricoveriInOspedale" private field.(ÔâüÛ
+G
+java:S1068"1Remove this unused "andatoInBagno" private field.(þŒ²Ð

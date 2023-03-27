@@ -1,0 +1,12 @@
+
+    Difference between arrays and lists
+
+        List<Integer> x = Arrays.asList(2, 3, 5);
+
+        int[] y = new int [] {2, 3, 5};
+
+        int primo = x.get(0);
+
+        int secondo = y[1];
+
+        x.add(7);

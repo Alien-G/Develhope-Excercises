@@ -1,0 +1,7 @@
+
+r	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Òİ”çıÿÿÿÿ8Í÷äƒò0
+i	java:S116	"MRename this field "ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ŞÒï8Ñ÷äƒò0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(‰Õ ûÿÿÿÿ8Ó÷äƒò0
+Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ı««´ùÿÿÿÿ8Ô÷äƒò0
+Y
+java:S1128"7Remove this unused import 'java.util.SplittableRandom'.(âå ¦şÿÿÿÿ8ÓÂçƒò0

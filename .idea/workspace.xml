@@ -4,23 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercises 9 n 10">
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Push check">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Classe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Scuola.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Studente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_12/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaoop/_4/ExerciseLunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaoop/_4/ExerciseLunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="58d00ce1-84bd-475e-9e6f-f651e475a44a" />
+        <option name="url" value="https://github.com/Alien-G/Develhope-Excercises.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2MnUskIvAIjQqVlrMH0Rf0MSr0Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -32,16 +60,25 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documenti/Projects/Java Projects/Develhope-Excercises&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Documenti/Projects/Java Projects/Develhope-Excercises&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.20795107&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._14.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_15.Main" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="javaoop._3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.javaoop._4.Exercises">
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop._1.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_15.*" />
+          <option name="PATTERN" value="javaoop._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -49,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_12.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_12.Main" />
+    <configuration name="javaoop._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop._2.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_12.*" />
+          <option name="PATTERN" value="javaoop._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_13.Main" />
+    <configuration name="javaoop._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop._3.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_13.*" />
+          <option name="PATTERN" value="javaoop._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_14.Main" />
+    <configuration name="javaoop._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop._4.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_14.*" />
+          <option name="PATTERN" value="javaoop._4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javabasics._14.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasics._14.Main" />
+    <configuration name="javaoop.exercises._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaoop.exercises._3.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javabasics._14.*" />
+          <option name="PATTERN" value="javaoop.exercises._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._14.Main" />
-        <item itemvalue="Application._12.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.javabasics._14.Main" />
-        <item itemvalue="Application._13.Main" />
+        <item itemvalue="Application.javaoop._4.Exercises" />
+        <item itemvalue="Application.javaoop._3.Exercises" />
+        <item itemvalue="Application.javaoop.exercises._3.Exercises" />
+        <item itemvalue="Application.javaoop._2.Exercises" />
+        <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +192,140 @@
       <option name="project" value="LOCAL" />
       <updated>1678665089811</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added exercises 11 through 15">
+      <created>1679224116984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679224116984</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added exercise 11">
+      <created>1679224772951</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679224772951</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added exercise 16">
+      <created>1679267241093</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679267241093</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added exercise 16">
+      <created>1679302323642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679302323642</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added exercise 15">
+      <created>1679339655846</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679339655846</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added exercise 15">
+      <created>1679340376099</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679340376099</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added exercise 15">
+      <created>1679340403670</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679340403670</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added exercise 18">
+      <created>1679350342121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1679350342121</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Added exercise 18">
+      <created>1679496112146</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1679496112146</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added exercise 19">
+      <created>1679872462437</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1679872462437</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Added exercise 19">
+      <created>1679872515580</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679872515580</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Added exercise 19">
+      <created>1679872654740</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679872654740</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Added exercise 20">
+      <created>1679877822614</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679877822614</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Added exercise 21">
+      <created>1679920317978</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679920317978</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Added exercise 21">
+      <created>1679920532031</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679920532031</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Added exercise 21">
+      <created>1679920679141</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1679920679141</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added exercise 21">
+      <created>1679921095377</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921095377</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Push check">
+      <created>1679921194277</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921194277</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Push check">
+      <created>1679921403344</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921403344</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +336,7 @@
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
-                  <entry key="Show.Git.Branches" value="true" />
+                  <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
             </State>
@@ -181,7 +351,20 @@
     <MESSAGE value="Added exercises 2 through 5" />
     <MESSAGE value="Added exercises 6 through 8" />
     <MESSAGE value="Added exercises 9 n 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercises 9 n 10" />
+    <MESSAGE value="Added exercises 11 through 15" />
+    <MESSAGE value="Added exercise 11" />
+    <MESSAGE value="Added exercise 16" />
+    <MESSAGE value="Added exercise 15" />
+    <MESSAGE value="Added exercise 18" />
+    <MESSAGE value="Added exercise 19" />
+    <MESSAGE value="Added exercise 20" />
+    <MESSAGE value="Added exercise 21" />
+    <MESSAGE value="Push check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push check" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Develhope_Excercises$_6_Main.ic" NAME="_6.Main Coverage Results" MODIFIED="1678472150234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -189,6 +372,12 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/Develhope_Excercises$javabasics__14_Main.ic" NAME="javabasics._14.Main Coverage Results" MODIFIED="1679076710034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>javabasics._14.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Develhope_Excercises$_16_Main.ic" NAME="_16.Main Coverage Results" MODIFIED="1679327228000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>_16.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Develhope_Excercises$javaoop_exercises__3_Exercises.ic" NAME="javaoop.exercises._3.Exercises Coverage Results" MODIFIED="1679873743913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>javaoop.exercises._3.*</FILTER>
     </SUITE>
   </component>
 </project>

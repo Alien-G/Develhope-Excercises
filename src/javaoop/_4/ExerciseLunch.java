@@ -1,4 +1,4 @@
-package javaoop.exercises._4;
+package javaoop._4;
 
 public class ExerciseLunch {
     private Double price = null;
@@ -9,12 +9,12 @@ public class ExerciseLunch {
 
     private int numberOfTimesWeHaveGotPrice = 0;
 
-    private ExerciseLunch(Double price, String nameOfDayEaten) {
+     public ExerciseLunch(Double price, String nameOfDayEaten) {
         this.price = price;
         this.nameOfDayEaten = nameOfDayEaten;
     }
 
-    public void printMaxPrice() {
+    public static void printMaxPrice() {
         System.out.println(MAX_PRICE);
     }
 
@@ -34,16 +34,15 @@ public class ExerciseLunch {
         }
     }
 
-    private Double getPrice() {
+    public Double getPrice() {
         numberOfTimesWeHaveGotPrice = numberOfTimesWeHaveGotPrice + 1;
         return this.price;
     }
-
     private int getNumberOfTimesWeHaveGotPrice() {
         return this.numberOfTimesWeHaveGotPrice;
     }
 
-    private String getNameOfDayEaten() {
+    public String getNameOfDayEaten() {
         return nameOfDayEaten;
     }
 
@@ -59,7 +58,7 @@ public class ExerciseLunch {
         this.nameOfDayEaten = nameOfDayEaten;
     }
 
-    private void setLunchWeightInGrams(int lunchWeightInGrams) {
+    public void setLunchWeightInGrams(int lunchWeightInGrams) {
         this.lunchWeightInGrams = lunchWeightInGrams;
     }
 
