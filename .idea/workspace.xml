@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Push check">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Classe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Scuola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaoop/Lezione/Studente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaoop/_4/ExerciseLunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaoop/_4/ExerciseLunch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -325,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679921403344</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Push check">
+      <created>1679922392604</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1679922392604</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Push check">
+      <created>1679922642672</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679922642672</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
