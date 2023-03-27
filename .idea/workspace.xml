@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Push check">
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercise 21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaoop/_4/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +330,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679922642672</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Added exercise 21">
+      <created>1679923030341</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1679923030341</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,7 +351,33 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -364,9 +396,9 @@
     <MESSAGE value="Added exercise 18" />
     <MESSAGE value="Added exercise 19" />
     <MESSAGE value="Added exercise 20" />
-    <MESSAGE value="Added exercise 21" />
     <MESSAGE value="Push check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push check" />
+    <MESSAGE value="Added exercise 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercise 21" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
