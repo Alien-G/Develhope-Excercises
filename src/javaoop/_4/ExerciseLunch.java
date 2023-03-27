@@ -38,7 +38,6 @@ public class ExerciseLunch {
         numberOfTimesWeHaveGotPrice = numberOfTimesWeHaveGotPrice + 1;
         return this.price;
     }
-
     private int getNumberOfTimesWeHaveGotPrice() {
         return this.numberOfTimesWeHaveGotPrice;
     }
