@@ -7,7 +7,7 @@ public class Exercises {
         exercise1();
         exercise2();
         exercise3();
-        exercise4();
+    //    exercise4();
     }
 
     /**
@@ -66,7 +66,8 @@ public class Exercises {
 //     *    use SNAKE_CASE naming
 //     */
 
-    private static final int WEEKS_IN_YEAR = 52;
+
+    /*private static final int WEEKS_IN_YEAR = 52;
     private static final int DAYS_IN_WEEK = 7;
     private static final int HOURS_IN_DAY = 24;
     public static void exercise4() {
@@ -80,4 +81,7 @@ public class Exercises {
             }
         }
     }
+}
+     */
+
 }
