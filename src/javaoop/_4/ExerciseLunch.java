@@ -65,4 +65,5 @@ public class ExerciseLunch {
     private void setNumberOfTimesWeHaveGotPrice(int numberOfTimesWeHaveGotPrice) {
         this.numberOfTimesWeHaveGotPrice = numberOfTimesWeHaveGotPrice;
     }
+
 }

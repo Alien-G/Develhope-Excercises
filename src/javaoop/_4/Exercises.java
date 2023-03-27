@@ -31,7 +31,6 @@ public class Exercises {
     }
 
     private static Random random = new Random();
-
     private static int rollD6() {
         return random.nextInt(6) + 1;
     }
