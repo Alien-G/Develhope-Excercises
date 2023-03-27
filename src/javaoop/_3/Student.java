@@ -56,5 +56,4 @@ public class Student {
      public String getCodiceFiscale() {
           return codiceFiscale;
      }
-
 }

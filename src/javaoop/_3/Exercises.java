@@ -2,6 +2,7 @@ package javaoop._3;
 
 import javaoop._3.Student;
 
+
 public class Exercises {
     public static void main(String[] args) {
         exercise1();
