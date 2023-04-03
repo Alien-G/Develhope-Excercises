@@ -21,15 +21,10 @@ public class Persona {
 		eta = 15;
 	}
 
-	public Persona(String n, String cognome) {
-		nome = n;
-		this.cognome = cognome;
-		eta = 0;
-	}
-
 	// nessun tipo di ritorno -> falso, ritorna un istanza della classe Persona
 	// nome in maiuscolo
 	// nome che matcha il nome della classe
+
 	public Persona(String n, String cognome, int e) {
 		nome = n;
 		this.cognome = cognome;

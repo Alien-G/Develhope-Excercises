@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercise 21">
+    <list default="true" id="f821c27e-2d04-4362-9f17-7729c4dbf9f5" name="Changes" comment="Added exercise 24">
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Badge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/BadgeTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercises/example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LezioniconLuca/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LezioniconLuca/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +45,12 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2MnUskIvAIjQqVlrMH0Rf0MSr0Z" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -59,17 +67,33 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documenti\Projects\Java Projects\Develhope-Excercises\src\javaoop\_5" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="javaoop._3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.javaoop._4.Exercises">
+  <component name="RunManager" selected="Application.BadgeTester">
+    <configuration name="BadgeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Exercises.BadgeTester" />
+      <module name="Develhope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Exercises.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop._1.Exercises" />
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._2.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop._1.*" />
+          <option name="PATTERN" value="javaadvanced._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop._2.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop._2.Exercises" />
+    <configuration name="javaadvanced._1.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._1.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop._2.*" />
+          <option name="PATTERN" value="javaadvanced._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop._3.Exercises" />
+    <configuration name="javaadvanced._2_Maps.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._2_Maps.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop._3.*" />
+          <option name="PATTERN" value="javaadvanced._2_Maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="javaoop._4.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop._4.Exercises" />
+    <configuration name="javaadvanced._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javaadvanced._3.Exercises" />
       <module name="Develhope" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaoop._4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="javaoop.exercises._3.Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaoop.exercises._3.Exercises" />
-      <module name="Develhope" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaoop.exercises._3.*" />
+          <option name="PATTERN" value="javaadvanced._3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,10 +142,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.javaoop._4.Exercises" />
-        <item itemvalue="Application.javaoop._3.Exercises" />
-        <item itemvalue="Application.javaoop.exercises._3.Exercises" />
-        <item itemvalue="Application.javaoop._2.Exercises" />
+        <item itemvalue="Application.BadgeTester" />
+        <item itemvalue="Application.javaadvanced._3.Exercises" />
+        <item itemvalue="Application.javaadvanced._1.Exercises" />
+        <item itemvalue="Application.javaadvanced._2_Maps.Exercises" />
         <item itemvalue="Application.Exercises" />
       </list>
     </recent_temporary>
@@ -337,7 +348,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679923030341</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Added exercise 21">
+      <created>1679926744079</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926744079</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Added exercise 22 and 23">
+      <created>1680390319413</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1680390319413</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Added exercise 24">
+      <created>1680456411037</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1680456411037</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +430,9 @@
     <MESSAGE value="Added exercise 20" />
     <MESSAGE value="Push check" />
     <MESSAGE value="Added exercise 21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added exercise 21" />
+    <MESSAGE value="Added exercise 22 and 23" />
+    <MESSAGE value="Added exercise 24" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added exercise 24" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

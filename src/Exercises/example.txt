@@ -1,0 +1,15 @@
+Create a new Java file named "Employee.java".
+Define the "Employee" class with 3 instance variables: "name", "surname", and "address".
+Create a constructor method that takes 3 parameters (newEmployeeName, newEmployeeSurname, newEmployeeAddress) and assigns them to the respective object's properties.
+Create a method called "getEmployeeDetails" that returns an informative String with all the details of the Employee.
+Create a new Java file named "Badge.java".
+Define the "Badge" class with a private static int variable called "totalNumberOfEmployees" and a private String variable called "badgeIdCode".
+Add a public "Employee" variable called "employee".
+Create a private static void method called "keepTrackOfEmployeesNumber" that increments by 1 the "totalNumberOfEmployees" variable.
+Create a private String method called "generateBadgeIdCode" that returns a String containing name and surname of the employee between two random String codes (e.g. XYZNameSurnameZYX).
+Create a public void method called "showBadgeDetails" that informs the user about the total number of employee tracked by the badges, the details of the employee, and the badgeIdCode.
+Create a constructor method that takes an Employee parameter called "employeeThatNeedsBadge" and calls the static method for keeping track of the number of employees, assigns the value of "employeeThatNeedsBadge" to the object's "employee" property, and assigns a generated id code to the object's "badgeIdCode".
+Create a new Java file named "BadgeTester.java".
+In the main method of "BadgeTester", create 2 new "Employee" objects.
+Create 2 new "Badge" objects using the 2 "Employee" objects.
+Call the "showBadgeDetails" method on each "Badge" object to display the employee's details and badge id.
