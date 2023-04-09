@@ -84,6 +84,8 @@ class CalculatorTest {
         Assertions.assertEquals(-2, calculator.power(-2, 1));
         Assertions.assertEquals(4, calculator.power(-2, 2));
         Assertions.assertEquals(0.25, calculator.power(2, -2));
+        Assertions.assertEquals(1, calculator.power(2, 0));
+
 
     }
 }
