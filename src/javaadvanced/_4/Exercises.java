@@ -34,6 +34,7 @@ public class Exercises {
             Files.createFile(MY_PATH);
 
             // Your code here
+            Files.writeString(MY_PATH, myString);
 
         } catch (Exception exception) {
             System.err.println("There was an error!");
@@ -52,8 +53,8 @@ public class Exercises {
 
         try {
             // Your code here
-
-
+            String content = Files.readString(MY_PATH);
+            System.out.println(content);
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -74,6 +75,10 @@ public class Exercises {
         try {
             // Your code here
 
+            String content = Files.readString(MY_PATH);
+            String[] lines = content.split("\n");
+            int lineCount = lines.length;
+            System.out.println("The file contains " + lineCount + " lines.");
 
         } catch (Exception exception) {
             System.err.println("There was an error!");
@@ -93,6 +98,12 @@ public class Exercises {
         System.out.println("\nExercise 4: ");
         try {
             // Your code here
+            String content = Files.readString(MY_PATH);
+            String[] words = content.split(" ");
+            int wordCount = words.length;
+            System.out.println("The file contains " + wordCount + " words.");
+            Files.delete(MY_PATH);
+
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
@@ -110,7 +121,10 @@ public class Exercises {
 
         try {
             // Your code
+            Files.createDirectory(myDirectoryPath);
+            Path pathInAFolder = myDirectoryPath.resolve("test-file.txt");
             Files.writeString(PATH_IN_A_FOLDER, "Why am I in a folder?");
+
         } catch (Exception exception) {
             System.err.println("There was an error!");
             exception.printStackTrace();
