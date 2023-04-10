@@ -84,43 +84,45 @@ public class Exercises {
      * Write code that simulates the behavior of a traffic light. It should take the current state of the traffic light as input and return the next state.
      *
      */
-    private static void exercise3() throws InterruptedException {
+    private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-        enum TrafficLight {
-            RED,
-            YELLOW,
-            GREEN;
-        }
 
-        TrafficLight trafficLightColour = TrafficLight.RED;
+        nextColour(nextColour(nextColour(TrafficLight.RED)));
 
+        // TrafficLight trafficLightColour = TrafficLight.RED;
+    }
+
+    enum TrafficLight {
+        RED,
+        YELLOW,
+        GREEN;
+
+    }
+
+    private static TrafficLight nextColour(TrafficLight trafficLightColour) {
         switch (trafficLightColour) {
+
             case RED:
                 System.out.println("STOP!");
-                Thread.sleep(18000);
-                trafficLightColour = TrafficLight.GREEN;
-                break;
+                return TrafficLight.GREEN;
             case GREEN:
                 System.out.println("YOU CAN GO!");
-                Thread.sleep(18000);
-                trafficLightColour = TrafficLight.YELLOW;
-                break;
-            case YELLOW:
-                System.out.println("SLOW DOWN!");
-                Thread.sleep(15000);
-                trafficLightColour = TrafficLight.RED;
-                break;
+                return TrafficLight.YELLOW;
+            // case YELLOW: I had to comment this out otherwise it would ask for a return statement outside of the switch.
+            default: System.out.println("SLOW DOWN!");
+                return  TrafficLight.RED;
+
         }
     }
 
-    /**
-     * 4:
-     *
-     * Given the Days enum from exercise 1, add a local field called isWeekend and set it to true for the weekend days and false for the weekdays.
-     *
-     * Write an if statement that prints weekend or weekday based on the enum
-     */
+        /**
+         * 4:
+         *
+         * Given the Days enum from exercise 1, add a local field called isWeekend and set it to true for the weekend days and false for the weekdays.
+         *
+         * Write an if statement that prints weekend or weekday based on the enum
+         */
     private static void exercise4() {
         System.out.println("\nExercise 4: ");
         // Your code here
@@ -166,28 +168,24 @@ public class Exercises {
             MULTIPLY,
             DIVIDE;
 
-            public static void operation(double num1, double num2, Operator operator) {
+            public static double operation(double num1, double num2, Operator operator) {
                 switch (operator) {
                     case ADD:
-                        System.out.println("Total: " + (num1 + num2));
-                        break;
+                        return (num1 + num2);
                     case SUBTRACT:
-                        System.out.println("Total: " + (num1 - num2));
-                        break;
+                        return (num1 - num2);
                     case MULTIPLY:
-                        System.out.println("Total: " + (num1 * num2));
-                        break;
-                    case DIVIDE:
-                        System.out.println("Total: " + (num1 / num2));
-                        break;
+                        return (num1 * num2);
+                    // case DIVIDE: I had to comment this out and make it the defualt, otherwise it would ask for a return statement outside of the switch.
+                    default:
+                        return (num1 / num2);
                 }
             }
         }
         double num1 = 5;
         double num2 = 2;
 
-        Operator operator = Operator.MULTIPLY;
-        Operator.operation(num1, num2, operator);
+        Operator.operation(num1, num2, Operator.MULTIPLY);
     }
 }
 
