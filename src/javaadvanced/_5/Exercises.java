@@ -1,5 +1,9 @@
 package javaadvanced._5;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
 public class Exercises {
     public static void main(String[] args) {
         exercise1();
@@ -15,7 +19,11 @@ public class Exercises {
     private static void exercise1() {
         System.out.println("Exercise 1: ");
         // Your code here
-//        Files.createFile(Path.of("Test.txt"));
+        try {
+            Files.createFile(Path.of("Test.txt"));
+        } catch (IOException exception) {
+            exception.printStackTrace();
+        }
     }
 
     /**
@@ -30,6 +38,11 @@ public class Exercises {
         // Your code here
 
         String userInputFileName = "test-file.txt";
+        try {
+            Files.readString(Path.of(userInputFileName));
+        } catch (IOException exception) {
+            System.err.println("File could not be found");
+        }
     }
 
     /**
@@ -42,8 +55,11 @@ public class Exercises {
     private static void exercise3() {
         System.out.println("\nExercise 3: ");
         // Your code here
-
-        Integer.parseInt("house");
+        try {
+            Integer.parseInt("house");
+        } catch (NumberFormatException exception) {
+            System.err.println("Not valid integer");
+        }
     }
 
     /**
@@ -62,10 +78,15 @@ public class Exercises {
 
         Double num1 = 10.0;
         String num2AsString = "0.0";
-        // try{
-            System.out.println(num1/Double.parseDouble(num2AsString));
-        //}
-        // Your catch blocks here
 
+        try {
+            System.out.println(num1 / Double.parseDouble(num2AsString));
+
+            // Your catch blocks here
+        } catch (NumberFormatException exception) {
+            System.err.println("Error: " + num2AsString + " is not a valid number");
+        } catch (ArithmeticException exception) {
+            System.err.println("Error: Division by zero");
+        }
     }
 }
